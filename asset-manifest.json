@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ChatOnReactAndNode/static/css/main.6fdd8823.chunk.css",
+    "main.js": "/ChatOnReactAndNode/static/js/main.62fdf61a.chunk.js",
+    "main.js.map": "/ChatOnReactAndNode/static/js/main.62fdf61a.chunk.js.map",
+    "runtime-main.js": "/ChatOnReactAndNode/static/js/runtime-main.646cff75.js",
+    "runtime-main.js.map": "/ChatOnReactAndNode/static/js/runtime-main.646cff75.js.map",
+    "static/js/2.b3b7496c.chunk.js": "/ChatOnReactAndNode/static/js/2.b3b7496c.chunk.js",
+    "static/js/2.b3b7496c.chunk.js.map": "/ChatOnReactAndNode/static/js/2.b3b7496c.chunk.js.map",
+    "static/js/3.1b1b9662.chunk.js": "/ChatOnReactAndNode/static/js/3.1b1b9662.chunk.js",
+    "static/js/3.1b1b9662.chunk.js.map": "/ChatOnReactAndNode/static/js/3.1b1b9662.chunk.js.map",
+    "index.html": "/ChatOnReactAndNode/index.html",
+    "static/css/main.6fdd8823.chunk.css.map": "/ChatOnReactAndNode/static/css/main.6fdd8823.chunk.css.map",
+    "static/js/2.b3b7496c.chunk.js.LICENSE.txt": "/ChatOnReactAndNode/static/js/2.b3b7496c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.646cff75.js",
+    "static/js/2.b3b7496c.chunk.js",
+    "static/css/main.6fdd8823.chunk.css",
+    "static/js/main.62fdf61a.chunk.js"
+  ]
+}
