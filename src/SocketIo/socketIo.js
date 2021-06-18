@@ -1,5 +1,5 @@
 import io from "socket.io-client";
 
-const socket = io('http://localhost:3001');
+const socket = io('https://chat-on-react-and-node-backend.herokuapp.com');
 
 export default socket;
