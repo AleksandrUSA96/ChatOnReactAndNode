@@ -11,7 +11,7 @@ const Entrance = ({onEntrance, roomIdFromURL}) => {
     const history = useHistory();
 
     useEffect(() => {
-        if (roomIdFromURL !==  null) setRoomId(roomIdFromURL);
+        if (roomIdFromURL !== null) setRoomId(roomIdFromURL);
         if (isClicked) {
             (async () => {
                 setIsLoading(true);
@@ -31,8 +31,11 @@ const Entrance = ({onEntrance, roomIdFromURL}) => {
         <div className={Style.entrance__wrapper}>
             <input name={'name'} type="text" placeholder={`What's your name?`} value={name}
                    onChange={e => setName(e.target.value)}/>
-            <input name={'room'} type="text" placeholder={`What's a room name?`} value={roomId} onChange={e => setRoomId(e.target.value)}/>
-            <button disabled={isLoading} onClick={() => setIsClicked(true)}>{isLoading ? 'Entry...' : 'Entrance'}</button>
+            <input name={'room'} type="text" placeholder={`What's a room name?`} value={roomId}
+                   onChange={e => setRoomId(e.target.value)}/>
+            <button disabled={isLoading}
+                    onClick={() => ((name.trim() !== '') && (roomId.trim() !== '')) && setIsClicked(true)}>{
+                isLoading ? 'Entry...' : 'Entrance'}</button>
         </div>
     )
 }
