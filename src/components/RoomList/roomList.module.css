@@ -1,0 +1,103 @@
+.rooms__wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.room__list__header {
+    background-color: #7366ff;
+    color: #fff;
+    font-weight: 100;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 26px;
+}
+
+.room__list__wrapper {
+    flex-basis: 30%;
+}
+
+.room__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #b6b6ff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all .2s ease-in;
+    margin-bottom: 20px;
+}
+
+.room__wrapper:hover {
+    background-color: #a3a3fb;
+    transition: all .2s ease-out;
+    cursor: pointer;
+}
+
+.room__name {
+    font-size: 22px;
+    margin: 10px 0;
+    text-transform: capitalize;
+}
+
+.user__list__wrapper {
+    animation-duration: .6s, 1s;
+    animation-delay: .5s, 0s;
+    animation-fill-mode: backwards;
+    animation-name: opacity__in, height__in;
+}
+
+.user__block {
+    background-color: #8989ff;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.chat__wrapper {
+    flex-basis: 70%;
+}
+
+.button__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__wrapper button {
+    background-color: #7366ff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: background-color .3s ease-out;
+}
+
+.button__wrapper button:hover {
+    background-color: #b6b6ff;
+    transition: background-color .3s ease-in;
+}
+
+@keyframes opacity__in {
+    from {
+        opacity: 0;
+
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes height__in {
+    from {
+
+        max-height: 0;
+    }
+    to {
+        max-height: 100vh;
+    }
+}
