@@ -2,7 +2,7 @@ import * as axios from "axios";
 import socket from "../../SocketIo/socketIo";
 
 const instance = axios.create({
-    baseURL: `http://localhost:3001/`,
+    baseURL: `https://chat-on-react-and-node-backend.herokuapp.com/`,
 });
 
 export const entranceAPI = {
